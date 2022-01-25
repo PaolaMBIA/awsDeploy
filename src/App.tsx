@@ -12,8 +12,6 @@ function App() {
       <Form<Inputs> onSubmit={onsubmit}>
         <Input name="lastName" ariaLabel="test-input" />
         <Select name="gender" options={["female", "male", "other"]} />
-        <DatePickerComponent name="startdatepicker" />
-        <DatePickerComponent name="enddatepicker" />
         <button>Envoyer</button>
       </Form>
     </main>
